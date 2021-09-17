@@ -1,0 +1,67 @@
+.ant-layout-header {
+  background-color: #fff;
+}
+
+.NavFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #41085c;
+  padding: 5px 50px;
+  box-shadow: 0 3px 6px rgb(79 43 121 / 37%);
+}
+
+.NavFlex h2 {
+  padding: 40px 0;
+  color: #fff;
+}
+
+.w-50 {
+  width: 50%;
+  margin: auto;
+}
+.paient-card-text {
+  color: #fff;
+  background-color: #41085c;
+  text-align: center;
+  font-size: 40px;
+}
+.login-form-button {
+  background-color: #41085c;
+  color: #fff;
+  width: 100%;
+}
+.addpatientmodalbutton {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background-color: #41085c;
+  z-index: 10;
+}
+.addpatientmodalbutton:hover,
+.editpatientmodalbutton:hover,
+.deletepatientbutton:hover {
+  background-color: #41085c;
+  color: #fff;
+}
+.editpatientmodalbutton,
+.deletepatientbutton {
+  background-color: #41085c;
+  color: #fff;
+}
+.site-card-border-less-wrapper {
+  margin: 50px;
+}
+.site-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  margin: 50px;
+  text-align: center;
+}
+/*# sourceMappingURL=App.css.map */
